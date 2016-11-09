@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  text-align: left;
+}
+
+header {
+	background-color: #ffffff;
+	/*border: 1px solid #cccccc;*/
+	width: 960px;
+	height: 100px;
+}
+
+body {
+  	font-size: 20px;
+  	line-height: 32px;
+  	color: #777777;
+  	width: 960px;
+  	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  	background-color: #ffffff;
+	background-image: url(assets/images/tree_bark.jpg);
+	background-size: contain;
+}
+
+section {
+	padding: 20px;
+  	margin-bottom: 20px;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: left;
+	text-align: center;
+	background: #4aaaa5;
+	color: #fff;
+	margin-left: 60px;
+	height: 100px;
+	width: 40%;
+	margin-bottom: 50px;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+}
+
+.top_menu {
+	float: right;
+	padding: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	display: inline-block;
+}
+
+/*#about {
+	display: inline-block;
+	width: 30%;
+}
+
+#portfolio {
+	display: inline-block;
+	width: 30%;
+}
+
+#contact {
+	display: inline-block;
+	width: 30%;
+}
+*/
+
+p {
+	padding: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+	width: 300px;
+	float: left;
+	padding: 20px;
+}
+
+.main_section {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#about_me {
+	float: left;
+	margin-left: 30px;
+	width: 650px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+
+}
+
+#connect_me {
+	float: right;
+	border: 1px #dddddd;
+	width: 270px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	margin-left: 10px;
+}
+
+footer {
+	color: #fff;
+	font-size: 12px;
+	background: #666666;
+	clear: both;
+	text-align: center;
+	height: 100px;
+	padding-top: 50px;
+}
