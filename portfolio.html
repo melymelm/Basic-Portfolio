@@ -4,52 +4,50 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>Portfolio Page</title>
 
-<!-- 		document.createElement('header');
-		document.createElement('footer');
-		document.createElement('section');
-		document.createElement('article');
-		document.createElement('aside');
-		document.createElement('nav'); -->
-
 </head>
+
 <body>
 	<header>
 		<h1>Melissa Munson</h1>
 
 		<div class="top_menu">
-
-			<ul>
-				<li>About</li>
-				<li>Portfolio</li>
-				<li>Contact</li>
-			</ul>
-
+			<a href="index.html">About</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="contact.html">Contact</a>
 		</div>
 
 	</header>
 
-	<div>
+	<section id="main_section">
 		
-		<section>
+		<div class="portfolio">
 			<h2>Portfolio</h2>
-			<ul>
-				<li><img src= "assets/images/hangman.jpeg" alt "Hangman"></li>
-				<li><img src= "assets/images/rpg.jpeg" alt "RPG Game"></li>
-				<li><img src= "assets/images/trivia_game.jpeg" alt "Trivia Game"></li>
-				<li><img src= "assets/images/rutgers_info.jpeg" alt "Rutgers Info Widget"></li>
-				<li><img src= "assets/images/rock_paper_scissors.jpeg" alt "Rock Paper Scissors"></li>
-		</section>
+			<h4></h4>
+			<table id="Port_grid">
+				<tr>
+					<td colspan="2"><img id="p_grid_img" src= "assets/images/hangman.jpeg" alt "Hangman"><h5>Hangman</h5></td>
+					<td colspan="2"><img id="p_grid_img" src= "assets/images/rpg.jpeg" alt "RPG Game"><h5>RPG Game</h5></td>
+				</tr>
 
-		<section id="connect_me">
+				<tr>
+					<td colspan="2"><img id="p_grid_img" src= "assets/images/trivia_game.jpeg" alt "Trivia Game"><h5>Trivia Game</h5></td>
+					<td colspan="2"><img id="p_grid_img" src= "assets/images/rutgers_info.jpeg" alt "Rutgers Info Widget"><h5>Rutgers Info Widget</h5></td>
+				</tr>
+
+				<tr>
+					<td colspan="2"><img id="p_grid_img" src= "assets/images/rock_paper_scissors.jpeg" alt "Rock Paper Scissors"><h5>Rock Paper Scissors</h5></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="connect_me">
 			<h3>Connect with Me</h3>
-			<ul>
-					<li><img src = "assets/images/Github.png" alt "Github"></li>
-					<li><img src = "assets/images/linkedin.png" alt "LinkedIn"></li>
-					<li><img src = "assets/images/stackoverflow.png" alt "StackOverflow"></li>
-      		</ul>
-			
-		</section>
-	</div>
+			<h4></h4>
+				<a href="https://github.com/melymelm"><img id="connect_im" src = "assets/images/Github.png" alt "Github"></a>
+				<a href="https://www.linkedin.com/in/melissa-munson-49701235?trk=hp-identity-name"><img id="connect_im" src = "assets/images/linkedin.png" alt "LinkedIn"></a>
+				<a href="http://stackoverflow.com/users/7001863/melymelm"><img id="connect_im" src = "assets/images/stackoverflow.png" alt "StackOverflow"></a>
+		</div>
+	</section>
 
 		<footer>
 				&copy; Copyright 2016 Melissa Munson
